@@ -9,36 +9,36 @@
       Title="Page2">
     <Grid>
         <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">Введите A</TextBlock>
-        <TextBox x:Name="TextBox1" Grid.Row="0" Grid.Column="1" Margin="16" Padding="12" Height="Auto"/>
+        <TextBlock Grid.Row="0" Grid.Column="0"  Height="42" Margin="16" FontWeight="bold" Foreground="#243238">Введите A</TextBlock>
+            <TextBox x:Name="TextBox1" Grid.Row="0" Grid.Column="1" Margin="16" Height="Auto"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">A во второй степени</TextBlock>
-        <TextBox x:Name="TextBox2" Grid.Row="1" Grid.Column="1" Margin="16" Padding="12" Height="Auto"  IsReadOnly="True"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="16" Height="42" FontWeight="bold" Foreground="#243238">A во второй степени</TextBlock>
+            <TextBox x:Name="TextBox2" Grid.Row="1" Grid.Column="1" Margin="16" Height="Auto"  IsReadOnly="True"/>
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">А в третьей степени</TextBlock>
-        <TextBox x:Name="TextBox3" Grid.Row="2" Grid.Column="1" Margin="16" Padding="12" Height="Auto"  IsReadOnly="True"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="16" Height="42" FontWeight="bold" Foreground="#243238">А в третьей степени</TextBlock>
+            <TextBox x:Name="TextBox3" Grid.Row="2" Grid.Column="1" Margin="16" Height="Auto"  IsReadOnly="True"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">А в пятой степени</TextBlock>
-        <TextBox x:Name="TextBox4" Grid.Row="3" Grid.Column="1" Margin="16" Padding="12" Height="Auto"  IsReadOnly="True"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="16" Height="42" FontWeight="bold" Foreground="#243238">А в пятой степени</TextBlock>
+            <TextBox x:Name="TextBox4" Grid.Row="3" Grid.Column="1" Margin="16" Height="Auto"  IsReadOnly="True"/>
 
-        <TextBlock Grid.Row="4" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">А в десятой степени</TextBlock>
-        <TextBox x:Name="TextBox5" Grid.Row="4" Grid.Column="1" Margin="16" Padding="12" Height="Auto"  IsReadOnly="True"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="16" Height="42" FontWeight="bold" Foreground="#243238">А в десятой степени</TextBlock>
+            <TextBox x:Name="TextBox5" Grid.Row="4" Grid.Column="1" Margin="16" Height="Auto"  IsReadOnly="True"/>
 
-        <TextBlock Grid.Row="5" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">А в пятьнадцатой степени</TextBlock>
-        <TextBox x:Name="TextBox6" Grid.Row="5" Grid.Column="1" Margin="16" Padding="12" Height="Auto"  IsReadOnly="True"/>
+            <TextBlock Grid.Row="5" Grid.Column="0" Margin="16" Height="42" FontWeight="bold" Foreground="#243238">А в пятьнадцатой степени</TextBlock>
+            <TextBox x:Name="TextBox6" Grid.Row="5" Grid.Column="1" Margin="16" Height="Auto"  IsReadOnly="True"/>
 
-        <Button Content="Решить" Grid.Row="6" Grid.ColumnSpan="2" Height="Auto"  Foreground="#FFF6A5" Background="Black" Click="Button_Click" />
+            <Button Content="Решить" Grid.Row="6" Grid.ColumnSpan="2" Height="Auto"  Foreground="#FFF6A5" Background="Black" Click="Button_Click" />
     </Grid>
 </Page>

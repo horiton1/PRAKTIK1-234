@@ -20,6 +20,6 @@
             <Button x:Name="FourPageButton" Width="30" Click="FourPageButton_Click">4</Button>
         </StackPanel>
 
-        <Frame Grid.Row="1" x:Name="MyFrame"></Frame>
+        <Frame Grid.Row="1" x:Name="MyFrame" ></Frame>
     </Grid>
 </Window>
