@@ -9,6 +9,47 @@
       Title="Page4">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition Height="42"/>
+            <RowDefinition/>
+            <RowDefinition Height="42"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Число A1:" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+        <TextBox Name="NumberA" Grid.Column="2" Height="32" Width="100"/>
+
+        <TextBlock Text="Число B1:" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="NumberB1" Grid.Row="1" Grid.Column="2" Height="32" Width="100"/>
+
+        <TextBlock Text="Число C1:" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="NumberC1" Grid.Row="2" Grid.Column="2" Height="32" Width="100"/>
+
+        <TextBlock Text="Число A2:" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="NumberA2" Grid.Row="3" Grid.Column="2" Height="32" Width="100"/>
+
+        <TextBlock Text="Число B2:" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="NumberB2" Grid.Row="4" Grid.Column="2" Height="32" Width="100"/>
+
+        <TextBlock Text="Число C2:" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="NumberC2" Grid.Row="5" Grid.Column="2" Height="32" Width="100"/>
+
+        <StackPanel Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" >
+            <TextBox
+                Name="Answer123"
+                VerticalScrollBarVisibility="Visible"
+                Margin="16"
+                IsReadOnly="True"/>
+        </StackPanel>
+
+        <Button Content="Решить" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Height="22" Width="100" Click="Button_Click"/>
     </Grid>
 </Page>
